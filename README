@@ -3,27 +3,20 @@ README for MediaAlignedText
 
 What is MediaAlignedText?
 -------------------------
-The basic purpose of the MediaAlignedText project is to provide support in synchronizing audio/video playback with corresponding text.
-
-The initial focus is an HTML5 audio player which has typical audio controls linked to time-aligned html text segments.  When each segment of audio is played, then the corresponding text segment is highlighted. Also, when a text segment is selected (e.g. by a click), then the audio player tracks to the aligned time.
+The basic purpose of the MediaAlignedTextBackend project is to provide backend support in the creation, storage, editing, and output of MediaAlignedText for use with the MediaAlignedText Player.
 
 
 Modules
 -------------
-Player:  The MediaAlignedText Player is a javascript library written as a jQuery plugin that handles the playback of aligned media and text in a web browser. All that is needed to use the player is the javascript library (including other javascript libraries dependencies), a publically accessible media file, and the audio tagged html version of text containing the alignment data.
+AutoAligner:  The AutoAligner is a server side program that will take a media file and corresponding text and automatically create the audio tagged html text for use by the MediaAlignedText Player.
 
 
-Editor:  The MediaAlignedText Editor is a javascript library that extends the functionality of the MediaAlignedText Player by allowing the user to create and edit the audio tagged html alignment data linking the media and the text.
+Dependencies:
+-------------
+PHP 5.3
+PHPUnit
 
-
-AutoAligner:  (proposed) The AutoAligner is a server side program that will take a media file and corresponding text and automatically create the audio tagged html text for use by the MediaAlignedText Player.
-
-
-
-Library Dependencies:
--------------------
-
-javascript:
+javascript (for frontend integration):
  jquery (version v1.7+) 
  jplayer (Version: 2.1.0)
  jquery.scrollto
