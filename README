@@ -1,9 +1,9 @@
-README for MediaAlignedText
+README for MediaAlignedTextBackend
 ==================
 
-What is MediaAlignedText?
+What is MediaAlignedTextBackend?
 -------------------------
-The basic purpose of the MediaAlignedTextBackend project is to provide backend support in the creation, storage, editing, and output of MediaAlignedText for use with the MediaAlignedText Player.
+The basic purpose of the MediaAlignedTextBackend project is to provide backend support in the creation, storage, editing, and output of MediaAlignedText for use with the MediaAlignedText Project.
 
 
 Modules
